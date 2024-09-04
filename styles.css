@@ -127,8 +127,14 @@ main {
     border: none;
     border-radius: 5px;
 
+    cursor: pointer;
+
     background-color: var(--color-dark-cyan);
     color: white;
+}
+
+#add-to-cart-btn:hover {
+    filter: brightness(90%);
 }
 
 #cart-icon {
